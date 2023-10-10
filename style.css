@@ -1,1 +1,129 @@
-*,.main-logo{box-sizing:border-box}*{margin:0;padding:0;overflow-x:hidden}.main-logo{width:45rem;height:auto;box-shadow:#111}.home-page{height:100vh;width:100%;display:flex;justify-content:center;align-items:center;background-image:url("assets/space\ shuttle.jpg");background-attachment:fixed;background-size:cover;background-repeat:no-repeat;background-position:right bottom;background-color:transparent}.page-2,.page-3{height:fit-content;width:100%;background-size:cover;background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:transparent}#myVideo{width:auto;height:100%;object-fit:cover;position:absolute;left:0;right:0;top:0;bottom:0;z-index:-1}.page-1{position:relative;height:fit-content;width:100%}.page-2{background-image:url("assets/moon\ surface.webp")}.page-3{background-image:url("assets/Milestones/SSLV-D1-min.webp")}.item{padding:1rem}.saffron{background-color:#ff661f80}.white{background-color:#ffffff80}.green{background-color:#046a3980}.page-title{font-size:2rem;font-family:Oswald,sans-serif}
+*,
+.main-logo {
+    box-sizing: border-box
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+body {
+    background-color: #111;
+}
+
+.main-logo {
+    width: 45rem;
+    height: auto;
+    box-shadow: #111
+}
+
+.home-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("assets/space\ shuttle.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: transparent
+}
+
+.nav-bar {
+    width: 80%;
+    height: 3rem;
+    position: fixed;
+    background-color:  #0E88D3;
+    /* background-color: #f47216; */
+    top: 1.5rem;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item {
+    /* color: #111; */
+    color: #fff;
+    /* color: #f47216; */
+    /* font-weight: 500; */
+    font-size: 1rem;
+    font-family: Oswald, sans-serif;
+    text-decoration: none;
+}
+
+
+.page-2,
+.page-3 {
+    height: fit-content;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent
+}
+
+#myVideo {
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1
+}
+
+.page-1 {
+    position: relative;
+    height: fit-content;
+    width: 100%
+}
+
+.page-2 {
+    background-image: url("assets/moon\ surface.webp")
+}
+
+.page-3 {
+    background-image: url("assets/Milestones/SSLV-D1-min.webp")
+}
+
+.item {
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+.item img{
+    margin-bottom: 1rem;
+    
+}
+
+.saffron {
+    background-color: #ff661f80;
+    color: #fff;
+}
+
+.white {
+    background-color: #ffffff80;
+    
+}
+
+.green {
+    background-color: #046a3980;
+    color: #fff;
+}
+
+.page-title {
+    font-size: 2rem;
+    font-family: Oswald, sans-serif;
+}
+
+section {
+    z-index: -100;
+}
