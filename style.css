@@ -44,6 +44,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 100;
 }
 
 .nav-item {
@@ -79,6 +80,10 @@ body {
     bottom: 0;
     z-index: -1
 }
+.page-title {
+    font-size: 2rem;
+    font-family: Oswald, sans-serif;
+}
 
 .page-1 {
     position: relative;
@@ -89,6 +94,7 @@ body {
 .page-2 {
     background-image: url("assets/moon\ surface.webp")
 }
+
 
 .page-3 {
     background-image: url("assets/Milestones/SSLV-D1-min.webp")
@@ -119,11 +125,16 @@ body {
     color: #fff;
 }
 
-.page-title {
-    font-size: 2rem;
-    font-family: Oswald, sans-serif;
+.btn-saffron{
+    background-color: #ff661f;
+    color: #fff;
+}
+.btn-white{
+    background-color: #ffffff;
+    color: #06038d;
+}
+.btn-green{
+    background-color: #046a39;
+    color: #fff;
 }
 
-section {
-    z-index: -100;
-}
